@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="slider">
+        <!--adding a div and anchoring it to the next page-->
+        <div class="proceed">
+            <h1><a href="categories.html">Let's Start The game</a></h1>
+        </div>
+
+        <!--creating each instruction page and attaching the pages with the correct dimensions-->
+   <div class="MySlider fade" style="display: block;">
+       <img src="1.png" style="width: 100%; height: 100%;">
+   </div>
+
+   <div class="MySlider fade">
+       <img src="2.png" style="width: 100%; height: 100%;">
+   </div>
+
+   <div class="MySlider fade">
+       <img src="3.png" style="width: 100%; height: 100%;">
+   </div>
+
+   <div class="MySlider fade">
+       <img src="4.png" style="width: 100%; height: 100%;">
+   </div>
+
+   <div class="MySlider fade">
+       <img src="5.png" style="width: 100%; height: 100%;">
+   </div>
+
+   <div class="MySlider fade">
+       <img src="6.png" style="width: 100%; height: 100%;">
+  </div>
+
+  <!--creating the navigation prv and next buttons-->
+  <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+  <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+<!--creating the dots that denote the navigation of next instruction-->
+  <div class="dotsBox" styles="text-align: cneter;">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+  
+</div>
+<script src="sketch.js"></script>
+</body>
+</html>

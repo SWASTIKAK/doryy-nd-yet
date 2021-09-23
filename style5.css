@@ -1,0 +1,33 @@
+body{
+    background-image: url(bg.jpg);
+}
+h1{
+    color:#fff;
+    text-align: center;
+}
+p{
+   text-align: center;
+}
+
+.btn{
+    border: none;
+    margin: 290px;
+    padding: 24px;
+    width: 220px;
+    font-family: "montserrat", sans-serif ;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+  }
+  
+  
+  
+  .btn2{
+    background-image: linear-gradient(to left,#FDA7DF,#998BFA,#FDA7DF);
+  }
+  
+  .btn:hover{
+    background-position: right;
+}
